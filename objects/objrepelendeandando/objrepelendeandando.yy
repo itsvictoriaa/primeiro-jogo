@@ -1,14 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"ObjPlayer",
+  "%Name":"objrepelendeandando",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"ObjColetavel","path":"objects/ObjColetavel/ObjColetavel.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Objrepelente","path":"objects/Objrepelente/Objrepelente.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ObjPlayer",
+  "name":"objrepelendeandando",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprPlayer",
-    "path":"sprites/SprPlayer/SprPlayer.yy",
+    "name":"sprRepelente",
+    "path":"sprites/sprRepelente/sprRepelente.yy",
   },
   "spriteMaskId":null,
   "visible":true,
