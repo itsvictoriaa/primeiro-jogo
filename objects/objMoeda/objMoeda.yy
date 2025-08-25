@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objRepelente",
+  "%Name":"objMoeda",
   "eventList":[],
   "managed":true,
-  "name":"objRepelente",
+  "name":"objMoeda",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprRepelente",
-    "path":"sprites/sprRepelente/sprRepelente.yy",
+    "name":"SprMoeda",
+    "path":"sprites/SprMoeda/SprMoeda.yy",
   },
   "spriteMaskId":null,
   "visible":true,

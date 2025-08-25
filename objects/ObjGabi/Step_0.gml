@@ -21,15 +21,15 @@ if keyboard_check(ord("S")) or keyboard_check(vk_down)and y  + velocidade < room
 }
 
 if keyboard_check(vk_anykey){
-	sprite_index = sprPlayerAndando
+	sprite_index = sprGabi
 }
 else{
-	sprite_index = SprPlayer
+	sprite_index = SprGabi
 }
 
-if pontos == 3 and room != rmFase2{
+if pontos == 3 and room != rmFase3{
 	room_goto_next()
 }
- else if pontos == 3 and room == rmFase2{
-	 room = rmFase1
+ else if pontos == 3 and room == rmFase3{
+	 room = rmFase3
  }

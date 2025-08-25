@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"objrepelendeandando",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Objinimigo",
+  "eventList":[],
   "managed":true,
-  "name":"objrepelendeandando",
+  "name":"Objinimigo",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprRepelente",
-    "path":"sprites/sprRepelente/sprRepelente.yy",
+    "name":"ObjInimigo",
+    "path":"sprites/ObjInimigo/ObjInimigo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

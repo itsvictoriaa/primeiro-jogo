@@ -1,9 +1,3 @@
-if keyboard_check(ord("A")) or keyboard_check(vk_left) and x - velocidade > 0{
-	x -= velocidade
-	if image_xscale > 0{
-		image_xscale*= -1
-	}
-}
 
 if keyboard_check(ord("D")) or keyboard_check(vk_right) and x + velocidade < room_width {
 	x += velocidade
@@ -20,16 +14,26 @@ if keyboard_check(ord("S")) or keyboard_check(vk_down)and y  + velocidade < room
 	y += velocidade
 }
 
+if keyboard_check(ord("A")) or keyboard_check(vk_left) and x - velocidade > 0 {
+	x -= velocidade
+	if image_xscale > 0{
+		image_xscale*= -1
+	}
+}
+
+
+
 if keyboard_check(vk_anykey){
-	sprite_index = sprPlayerAndando
+	sprite_index = SprPersonagemAndando
 }
 else{
-	sprite_index = SprPlayer
+	sprite_index = SprPersonagem
 }
 
 if pontos == 3 and room != rmFase2{
 	room_goto_next()
 }
- else if pontos == 3 and room == rmFase2{
-	 room = rmFase1
+
+else if pontos == 3 and room == rmFase2{
+	 room = rmFase3
  }
