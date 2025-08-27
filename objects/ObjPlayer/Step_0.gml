@@ -27,9 +27,9 @@ else{
 	sprite_index = SprPlayer
 }
 
-if pontos == 3 and room != rmFase2{
+if pontos == 3 and room != rmFase3{
 	room_goto_next()
 }
- else if pontos == 3 and room == rmFase2{
+ else if pontos == 3 and room == rmFase3{
 	 room = rmFase1
  }
